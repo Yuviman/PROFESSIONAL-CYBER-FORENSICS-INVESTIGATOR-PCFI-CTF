@@ -4,6 +4,7 @@ steghide is used for extracting embedded data from images and also hide data ins
 after downloading the file use steghide to extract the data file:
 steghide extract -sf 1b82a10a3d5edc5208439f24c50c8e69.jpg
 (-sf is the flag to mention Source File, dont forget the enter the passphrase:pass123)
+steghide extract -sf 1b82a10a3d5edc5208439f24c50c8e69.jpg -p pass123
 
 Then you get the extrated data file which can be read using cat:
 cat secrets.txt
