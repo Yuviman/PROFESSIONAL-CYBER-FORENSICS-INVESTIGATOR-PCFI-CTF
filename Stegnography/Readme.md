@@ -1,8 +1,10 @@
 Can you give the Linux Tool that is used for Steganography?
+
 steghide is used for extracting embedded data from images and also hide data inside files
 
 after downloading the file use steghide to extract the data file:
 steghide extract -sf 1b82a10a3d5edc5208439f24c50c8e69.jpg
+
 (-sf is the flag to mention Source File, dont forget the enter the passphrase:pass123)
 steghide extract -sf 1b82a10a3d5edc5208439f24c50c8e69.jpg -p pass123
 
